@@ -13,4 +13,5 @@ def reverse_each_word(sentence)
  new_sentence.collect do |string|
    return_sentence << string.reverse
 end
+return_sentence.join(" ")
 end
